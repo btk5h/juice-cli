@@ -1,0 +1,24 @@
+{
+  "name": "juice-cli",
+  "version": "0.0.0",
+  "description": "A better cli for juice",
+  "main": "index.js",
+  "bin": "./bin/juice-cli.js",
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "url": "w00tmast3r/juice-cli",
+    "type": "git"
+  },
+  "author": "Bryan Terce <bryan.terce@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "get-stdin": "^5.0.1",
+    "juice": "^4.0.2",
+    "minimist": "^1.2.0"
+  },
+  "devDependencies": {
+    "standard": "^8.6.0"
+  }
+}
